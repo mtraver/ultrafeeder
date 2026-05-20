@@ -170,5 +170,5 @@ type Aircraft struct {
 
 	// GPS status (experimental).
 	// GPSOkBefore is the timestamp at which the GPS was last working well, if the aircraft has lost GPS or its GPS is heavily degraded. This is only included for 15 min after GPS is lost / degraded. This is experimental and subject to change.
-	GPSOkBefore *int64 `json:"gpsOkBefore"`
+	GPSOkBefore *float64 `json:"gpsOkBefore"`
 }
